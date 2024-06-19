@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    height: 160px;
+    top: 0;
+    background-color: rgb(244, 168, 61);
+}
+
+.nav img {
+    position: absolute;
+    align-items: center;
+    width: 110px;
+    top: 10%;
+    left: 20%;
+}
+
+.nav p {
+    font-family: 'Black Ops One', cursive;
+    font-size: 600%;
+    margin-left: 500px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px black;
+    margin-top: 5px;
+}
+
+.navbar {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0px;
+    color: rgb(48, 31, 19);
+    background-color: rgb(244, 168, 61);
+    font-size: 15px;
+    justify-content: center;
+}
+
+.strong {
+    background-color: rgb(236, 208, 118);
+}
+
+.strong>h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#divstrongdes {
+    width: 950px;
+    height: 250px;
+}
+
+#strongdes {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.type {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px rgb(81, 78, 78);
+    font-size: 55px;
+    text-align: center;
+}
+
+.type1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.type2 {
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#brand {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(236, 208, 118);
+    ;
+}
+
+.m1 {
+    margin-right: 4%;
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pic1 {
+    display: flex;
+}
+
+.pic1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.intro1 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 2%;
+}
+
+.intro1 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.brand-p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    /* margin: 100px; */
+    margin-top: 25px;
+}
+
+.pic2 {
+    width: 250px;
+    height: 250px;
+    margin-right: 90px;
+    border-radius: 15px;
+}
+
+.nuts h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.brand-p2 {
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 100px;
+    margin-top: 15px;
+
+}
+
+.dunkin {
+    display: flex;
+    padding: 0px;
+}
+
+.nuts {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: unset;
+}
+
+.bandhead {
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.img-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    grid-gap: 40px;
+    background-color: rgb(220, 153, 60);
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 19%;
+    padding-right: 19%;
+}
+
+.img-gallery img {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transform: scale(0.5s);
+    border-radius: 10px;
+}
+
+.img-gallery img:hover {
+    width: 250px;
+    height: 250px;
+    transition: .6s;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+#formquery {
+    background-color: rgb(220, 153, 60);
+    border: 3px solid rgb(48, 31, 19);
+    border-radius: 5px;
+}
+
+.form {
+    justify-content: center;
+    border-radius: 8px;
+    text-align: justify;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 350px;
+    margin-right: 15%;
+    background-color: rgb(220, 153, 60);
+}
+
+.input {
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.input-text {
+    height: 65px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+#contact table {
+    padding: 80px;
+    margin: 10px;
+}
+
+#contact table td {
+    padding: 10px;
+}
+
+#contact p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.btn {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(92, 53, 26);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 15px;
+    transform: scale(0.5s);
+}
+
+.btn:hover {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(220, 153, 60);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: .6s;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+footer {
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(220, 153, 60);
+    margin: 0;
+    padding: 50px;
+    position: relative;
+}
+
+footer div {
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.foot img {
+    width: 150px;
+
+}
+
+.reach a {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(48, 31, 19);
+    font-weight: 600;
+}
+
+.reach a:hover {
+    color: rgb(252, 227, 194);
+}
+
+.address {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(48, 31, 19);
+}
+
+.address a {
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(113, 61, 9);
+}
+
+.address a:hover {
+    color: rgb(252, 227, 194);
+}
