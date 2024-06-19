@@ -310,3 +310,50 @@ footer div {
 .address a:hover {
     color: rgb(252, 227, 194);
 }
+
+@media screen and (max-width: 700px) {
+    .nav {
+        width: 990px;
+    }
+
+    .strong {
+        width: 990px;
+    }
+
+    .navbar {
+        width: 990px;
+    }
+
+    .gallery {
+        width: 990px;
+    }
+
+    .img-gallery {
+        width: 990px;
+    }
+
+    .img1 {
+        width: 20px;
+    }
+
+    .query {
+        width: 990px;
+    }
+
+    .footer {
+        width: 990px;
+    }
+
+    .reach {
+        width: 990px;
+    }
+
+    .nav p {
+        font-family: 'Black Ops One', cursive;
+        font-size: 50px;
+        margin-left: 500px;
+        color: rgb(48, 31, 19);
+        text-shadow: -5px 5px 5px black;
+    }
+
+}
